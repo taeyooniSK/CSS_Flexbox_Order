@@ -1,0 +1,54 @@
+.box {
+    /* width: 100px;
+    height: 100px; */
+    text-align: center;
+    padding: 30px;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.box-1 {
+    background-color: red;
+    order: 0;
+}
+.box-2 {
+    background-color: orangered;
+}
+.box-3 {
+    background-color:  orange;
+}
+.box-4 {
+    background-color :yellow;
+}
+.box-5 {
+    background-color: yellowgreen;
+}
+.box-6 {
+    background-color: green;
+}
+.box-7 {
+    background-color: mediumaquamarine;
+    order: 8;
+}
+
+.box-8 {
+    background-color: blue;
+}
+.box-9 {
+    background-color: plum;
+    order: -2; /* flex-direction(main axis)에 따라 시작점고 끝점이 바뀌기 떄문에 유의해야함*/
+}
+
+.container {
+    display:flex;
+    border: 10px solid black;
+    height: 300px;
+    flex-direction: row-reverse;
+    align-items: center;
+    /* align-items: center; */
+    /* align-items: stretch; default 값 */
+    /* align-content: space-around; */
+    /* flex-wrap: wrap; */
+    /* justify-content: flex-start; */
+
+}
